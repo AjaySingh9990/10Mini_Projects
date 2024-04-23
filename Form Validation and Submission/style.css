@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+   font-size: 85.5%;
+}
+
+.section-1{
+    
+    background-image: linear-gradient(to right,#f2811f,#516f7b);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container{
+    background-color: white;
+    width: 120%;
+    padding: 6rem 0;
+    padding-left: 6rem;
+    padding-right: 10rem;
+
+    
+ }
+ .form-gap{
+    margin: .7rem;
+ }
+ input{
+    padding: .3rem 0;
+    /* padding-right: 5rem; */
+    width: 120%;
+    
+ }
+ 
+ h1{
+    text-align: center;
+    font-weight: 800;
+    padding: 1rem .5rem;
+ }
+ .form{
+    position: relative;
+ }
+ .btn{
+    position: absolute;
+    left: 40%;
+    margin-top: 1rem;
+    font-style: italic;
+    border-radius: 20%;
+    padding: .31rem .5rem;
+    background-color: rgba(3, 69, 100, 0.862);
+    
+    &:hover{
+        background-color: rgba(3, 69, 100, 0.293);
+        font-weight: 600;
+    }
+ }
+ .name-error{
+   color: red;
+   padding-left: 1rem;
+ }
+ .email-error{
+   color: red;
+   padding-left: 1rem;
+ }
+ .phone-error{
+   color: red;
+   padding-left: 1rem;
+ }
+ .confirm-error{
+   color: red;
+   padding-left: 1rem;
+ }
+
+ @media only screen and (max-width:768px) {
+   html,
+   body{
+       width: 100%;
+       overflow-x: hidden;
+       font-size: 120.25%;
+   }
+   .container{
+      width: 90%; 
+   }
+   ::placeholder{
+      font-size: 78.5%;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   html {
+       font-size: 80.25%;
+   }
+   .container{
+     
+      width: 95%; 
+   }
+   ::placeholder{
+      font-size: 87.5%;
+   }
+
+}
+
+ 
